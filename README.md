@@ -1,44 +1,62 @@
-[canvas_url]: https://canvas.uchicago.edu/courses/56589
-[canvas_readings_dir]: https://canvas.uchicago.edu/courses/56589/files/folder/Readings
-[jon_oh]: https://calendar.app.google/yto22DQqDT1KxLDT8
+[canvas_url]: https://canvas.uchicago.edu/courses/58340
+[jon_oh]:
+[zhao_oh]:
+ 
 
-# Large-Scale Computing for the Social Sciences
-### Spring 2024 - MACS 30123/MAPS 30123/PLSC 30123
+# Large-Scale Data Mining for Social and Cultural Knowledge Discovery
+### Fall 2024 - MACS 40123
 
-| Instructor Information       | **TA Information**      | **TA Information**     |
-| :-------------               | :-------------          | :-------------         |
-| Jon Clindaniel               | Won Je Yun              | Adam Wu                |
-| 1155 E. 60th Street, Rm. 215 |                         |                        |
-| jclindaniel@uchicago.edu     | wjy1993@uchicago.edu    | adamwu@uchicago.edu    |
-| **Office Hours:** [Schedule an Appointment][jon_oh] Tuesday 11:00am-1:00pm<br/><br/> Drop-In (No appointment needed): Tuesday 2:00-4:00pm | **Office Hours:** Monday, Wednesday 1:00-2:00 pm, Rm 226-A| **Office Hours:** Monday, Wednesday 3:15-4:15 pm | 
+| Instructor Information       | **Instructor Information**    | 
+| :-------------               | :-------------                |
+| Jon Clindaniel               | Zhao Wang                     | 
+| 1155 E. 60th Street, Rm. 215 | 1155 E. 60th Street, Rm. 215  | 
+| jclindaniel@uchicago.edu     | zwang13@uchicago.edu          |
+
+**Office Hours** 
+- Drop-In (No appointment needed):  <br/>
+- [Schedule an Appointment]         <br/>  
 
 ## Course Information
 
-* Location: 1155 E. 60th Street, Rm. 140C
-* Time: Monday/Wednesday Lecture from 4:30-5:50 PM (CT), Friday Lab Section from 4:30-5:50 PM (CT)
+* Location: 1155 E. 60th Street, Rm. 295
+* Time: Tuesday/Thursday Lecture from 3:30-4:50 PM (CT)
 * [Canvas Course Site][canvas_url]
 
 ## Course Description
-Computational social scientists increasingly need to grapple with data that is too big and code that is too resource intensive to run on a local machine. Using Python, students in this course will learn how to effectively scale their computational methods beyond their local machines -- optimizing and parallelizing their code across clusters of CPUs and GPUs, both on-premises and in the cloud. The focus of the course will be on social scientific applications, such as: accelerating social simulations by several orders of magnitude, processing large amounts of social media data in real-time, and training machine learning models on economic datasets that are too large for an average laptop to handle.
+Are you prepared to deepen your knowledge of large-scale computational modeling and pioneer new frontiers in social scientific research? This course will introduce fundamental data mining techniques for extracting insights from massive datasets, as well as the practical and theoretical implications of using these approaches to produce new knowledge about the social and cultural world. For instance, students will learn strategies for deciphering cultural logics at scale (e.g. association rule and frequent itemsets mining), revealing patterns in complex social networks (e.g. link analysis and graph neural networks), and discovering large-scale processes that shape our social and cultural world (e.g. recommender systems and causal rule mining). 
 
-*Prerequisites: MACS 30121 and MACS 30122, or equivalent (e.g. CAPP 30121 and CAPP 30122). Note that this the accelerated version of MACS 30113.*
+Through in-class discussions, as well as hands-on exercises using Python and large-scale computing frameworks like Spark, students will develop the mastery necessary to conduct large-scale data mining research. By the course’s conclusion, students will synthesize their knowledge and skills into an original research project, geared toward publication in a relevant Computational Social Science journal or conference.
+
+*Prerequisites: Should complete first-year CSS Computing Sequence (through MACS 10113/30113/30123) and at least one course in Machine Learning (e.g. MACS 10100/30100 or 23002/33002).*
+
+*Instructor Consent Required: In order to obtain instructor consent to join the class, each student should complete this [google form](https://forms.gle/F3q16z1Pk7XHBdLk7), which requires to submit an abstract detailing the problem area they are interested in and how (in broad strokes) data mining methodologies might help them solve the problem. Also, how they are prepared to engage in the course (e.g., other courses, previous publications, projects).*
+
 
 ## Course Structure
-This course is structured into several modules, or overarching thematic learning units, focused on teaching students fundamental large-scale computing concepts, as well as giving them the opportunity to apply these concepts to Computational Social Science research problems. Students can access the readings, assignments, and resources for each of the class sessions within these modules on the [Canvas course site][canvas_url]. If students have any questions about the course content, they should post these questions in the Ed Discussion forum for the course, which they can access by clicking the "Ed Discussion" tab on the left side of the screen on the Canvas course site. To see an overall schedule and syllabus for the course, as well as access additional course-related files (which we will walk through in in-class activities), students should visit (and clone/fork) the GitHub Course Repository, available here.
+This course is structured into several modules, or overarching thematic learning units, focused on teaching students fundamental data mining concepts applied in large-scale data, as well as giving them the opportunity to apply these concepts to Computational Social Science research problems. Students can access the readings, assignments, and resources for each of the class sessions within these modules on the [Canvas course site][canvas_url]. If students have any questions about the course content, they should post these questions in the Ed Discussion forum for the course, which they can access by clicking the "Ed Discussion" tab on the left side of the screen on the Canvas course site. To see an overall schedule and syllabus for the course, as well as access additional course-related files (which we will walk through in in-class activities), students should visit (and clone/fork) the GitHub Course Repository, available here.
 
-During regular class hours, we will meet for a mixture of lecture, group activities, and in-class coding exercises related to the topic for the day. Attendance to the class sessions is mandatory and is an important component of the final course grade. Students should prepare for these classes by reading the assigned readings ahead of every session. All readings are available online and are linked in the course schedule below (and in the corresponding module on Canvas). Starting in Week 2, there will also be an additional TA-led lab section on Fridays from 4:30-5:50 PM CT (in our regular classroom), focused on providing additional practice with scalable computing strategies.
+During regular class hours, we will meet for a mixture of lecture, group activities, and in-class coding exercises related to the topic for the day. Attendance to the class sessions is mandatory and is an important component of the final course grade. Students should prepare for these classes by reading the assigned readings ahead of every session. All readings are available online and are linked in the course schedule below (and in the corresponding module on Canvas). 
 
-In order to practice scalable computing skills and complete the course assignments, students will be given free access to on-premise cluster computing resources, [Amazon Web Services (AWS)](https://aws.amazon.com/) cloud computing resources, and [DataCamp](https://www.datacamp.com/). More information about accessing these resources will be provided to registered students in the first several weeks of the quarter.
+In order to practice scalable computing skills and complete the course assignments, students will be given free access to UChicago's Midway Computing Cluster resource, [Midway3]([https://aws.amazon.com/](https://rcc-uchicago.github.io/user-guide/)) cloud computing resources. More information about accessing these resources will be provided to registered students in the first several weeks of the quarter.
+
+## Learning Objectives
+By the end of the course, students will be able to:
+- Mine large datasets using PySpark and fundamental data mining techniques.
+- Articulate the types of social and cultural research questions that the methods and data of data mining are best suited to answer the theoretical insights they are best positioned to produce.
+- Produce new knowledge about the social or cultural world through large-scale data mining. This knowledge will be situated as an original contribution to Computational Social Science, grounding it in relevant social scientific theory, and novel computational methods. 
+- You will present your work in the format of either:
+  - An extended abstract for submission to IC2S2 
+  - Or (for work that is more developed): A full conference paper for submission to a relevant conference for Social Data Mining (KDD, ICWSM, WebSci, WebConf, etc.) 
 
 ## Grading
 There will be an assignment due at the end of each unit (3 in total). Each assignment is worth 20% of the overall grade, with all assignments together worth a total of 60%. Additionally, attendance and participation will be worth 10% of the overall grade. Finally, students will complete a final project that is worth 30% of the overall grade (25% for the project itself, and 5% for an end-of-quarter video presentation).
 
-| Course Component         | Grade Percentage  |
-| :-------------           | :-------------    |
-| Assignments (Total: 3)   | 60%               |
-| Attendance/Participation | 10%               |
-| Final Project            | 5% (Presentation) |
-|                          | 25% (Project)     |
+| Course Component          | Grade Percentage      |
+| :-------------            | :-------------        |
+| Attendance/Participation  | 15%                   |
+| Coding exercise (Total: 3)| 20%                   |
+| Project/Paper             | 40% (Implementation)  |
+|                           | 25% (Paper submission)|
 
 Grades are not curved in this class or, at least, not in the traditional sense. We use a standard set of grade boundaries:
 * 95-100: A
@@ -53,17 +71,14 @@ We curve only to the extent we might lower the boundaries for one or more letter
 
 So, for example, if you have a total score of 82 in the course, you are guaranteed to get, at least, a B (but may potentially get a higher grade if the boundary for a B+ is lowered).
 
-If you would like to be graded on a Pass/Fail (P/F) basis, send a private message to the course staff on the Ed Discussion forum **before the Final Project is due**. A total score of 75 and above in the class will qualify for a "P" in the class.
+**TBD** If you would like to be graded on a Pass/Fail (P/F) basis, send a private message to the course staff on the Ed Discussion forum **before the Final Project is due**. A total score of 75 and above in the class will qualify for a "P" in the class.
 
 ## Participation Expectations
-We expect all students to participate in each class session in person (having read all of the readings listed for the day ahead of class time). Your participation grade (10% of your overall grade in the class) will be based on your engagement and completion of in-class activities.
+We expect all students to participate in each class session in person (having read all of the readings listed for the day ahead of class time). Your participation grade (15% of your overall grade in the class) will be based on your engagement and completion of in-class activities.
 
 If, for whatever reason, you cannot attend a class session, send a private message to the course staff **ahead of the class session** on the class Ed Discussion forum. We will evaluate these requests on a case-by-case basis and assign an alternative assignment to make up participation credit for the day.
 
-## Final Project
-For their final project, students will write large-scale computing code that solves a social science research problem of their choosing. For instance, students might perform a computationally intensive demographic simulation, or they may choose to collect, analyze, and visualize large social media data, or do something else that employs large-scale computing strategies. Students will additionally record a short video presentation about their project. Detailed descriptions and grading rubrics for the project and presentation are available [on the Canvas course site.][canvas_url]
-
-## Late Assignments/Projects
+## Late Submission
 Unexcused Late Assignment/Project Submissions will be penalized 10 percentage points for every hour they are late. For example, if an assignment is due on Wednesday at 11:59pm, the following percentage points will be deducted based on the time stamp of the last commit in your private GitHub assignment repository.
 
 | Example last commit |	Percentage points deducted         |
@@ -77,7 +92,7 @@ Unexcused Late Assignment/Project Submissions will be penalized 10 percentage po
 
 If, for whatever reason, you need an extension on an assignment deadline, send a private message to the course staff **ahead of the assignment deadline** on the class Ed Discussion forum and we will evaluate these requests on a case-by-case basis.
 
-## Plagiarism on Assignments/Projects
+## Plagiarism on Assignments/Projects/Papers
 
 Academic honesty is an extremely important principle in academia and at the University of Chicago.
 
@@ -97,11 +112,10 @@ If you have any questions about citations, references, or what constitutes plagi
 ## Statement of Diversity and Inclusion
 The University of Chicago is committed to diversity and rigorous inquiry from multiple perspectives. The MAPSS, CIR, and Computation programs share this commitment and seek to foster productive learning environments based upon inclusion, open communication, and mutual respect for a diverse range of identities, experiences, and positions.
 
-This course is open to all students who meet the academic requirements for participation. Any student who has a documented need for accommodation should contact Student Disability Services (773-702-6000 or disabilities@uchicago.edu) and the instructor as soon as possible.
+This course is open to all students who meet the academic requirements for participation. Any student who has a documented need for accommodation should contact Student Disability Services (773-702-6000 or disabilities@uchicago.edu) and communicate with the instructor as soon as possible.
 
 ## Course Schedule
-
-*Note that there will also be weekly lab sections in Weeks 2-9 on Fridays from 4:30-5:50pm CT in our normal classroom.*
+<!--
 
 | Unit   | Week | Day | Topic | Readings | Assignment |
 | --- | --- | --- | --- | --- |  --- |
@@ -125,8 +139,9 @@ This course is open to all students who meet the academic requirements for parti
 || | 5/15/2024 | Visualizing Large Data | Documentation for [DataShader](https://datashader.org/index.html) and [Bokeh](https://bokeh.org/), and integrating the two libraries using [HoloViews](http://holoviews.org/user_guide/Large_Data.html) | Due: Assignment 3 (11:59 PM) |
 | Student Projects | Week 10: Final Projects | 5/24/2024 ||| Due: Final Project + Presentation Video (11:59 PM) |
 
+-->
 ## Works Cited
-
+<!--
 "A ~5 minute guide to Numba." https://numba.readthedocs.io/en/stable/user/5minguide.html. Accessed 3/2021.
 
 Armbrust, Michael, Fox, Armando, Griffith, Rean, Joseph, Anthony D., Katz, Randy H., Konwinski, Andrew, Lee, Gunho, Patterson, David A., Rabkin, Ariel, Stoica, Ion, and Matei Zaharia. 2009. "Above the Clouds: A Berkeley View of Cloud Computing." Technical report, EECS Department, University of California, Berkeley.
@@ -216,3 +231,4 @@ White, Tom. 2015. *Hadoop: The Definitive Guide*. Sebastopol, CA: O'Reilly.
 "Why Dask." https://docs.dask.org/en/latest/why.html. Accessed 3/2020.
 
 "Working with large data using datashader." http://holoviews.org/user_guide/Large_Data.html. Accessed 3/2021.
+-->
