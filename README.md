@@ -5,16 +5,14 @@
 
 # Large-Scale Data Mining for Social and Cultural Knowledge Discovery
 ### Fall 2024 - MACS 40123
+| |||
+|:--|:--|:--|
+|**Instructor** | Jon Clindaniel               | Zhao Wang                     | 
+|**Office**       | 1155 E. 60th Street, Rm. 215 | 1155 E. 60th Street, Rm. 221  | 
+|**Email**      | jclindaniel@uchicago.edu     | zwang13@uchicago.edu          |
+|**Drop-in Office Hour </br>(no appointment needed)**|                      |                               |
+|**Schedule An Appointment**|                              |                               |
 
-| Instructor Information       | **Instructor Information**    | 
-| :-------------               | :-------------                |
-| Jon Clindaniel               | Zhao Wang                     | 
-| 1155 E. 60th Street, Rm. 215 | 1155 E. 60th Street, Rm. 215  | 
-| jclindaniel@uchicago.edu     | zwang13@uchicago.edu          |
-
-**Office Hours** 
-- Drop-In (No appointment needed):  <br/>
-- [Schedule an Appointment]         <br/>  
 
 ## Course Information
 
