@@ -10,9 +10,6 @@
 |**Instructor** | Jon Clindaniel               | Zhao Wang                     | 
 |**Office**       | 1155 E. 60th Street, Rm. 215 | 1155 E. 60th Street, Rm. 221  | 
 |**Email**      | jclindaniel@uchicago.edu     | zwang13@uchicago.edu          |
-|**Drop-in Office Hour </br>(no appointment needed)**|                      |                               |
-|**Schedule An Appointment**|                              |                               |
-
 
 ## Course Information
 
